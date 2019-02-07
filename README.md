@@ -18,3 +18,13 @@ $ git commit -m "message"
 $ git push origin master
 
 ```
+### [How to respond to the message "The following untracked working tree files would be overwritten by merge"](https://stackoverflow.com/questions/17404316/the-following-untracked-working-tree-files-would-be-overwritten-by-merge-but-i)
+
+The problem is that you are not tracking the files locally but identical files are tracked remotely so in order to "pull" your system would be forced to overwrite the local files which are not version controlled.
+
+```shell
+git add * 
+git stash
+git pull
+
+```
