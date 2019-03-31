@@ -34,3 +34,9 @@ git pull
 ```shell
 To undo git add . use git reset (no dot)
 ```
+
+for a single file
+
+```shell
+git reset filename.txt
+```
