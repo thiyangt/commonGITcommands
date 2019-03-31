@@ -29,7 +29,7 @@ git pull
 
 ```
 
-### To undo git add . (https://data.agaric.com/undo-git-add-remove-files-staged-git-commit)
+### [To undo git add .](https://data.agaric.com/undo-git-add-remove-files-staged-git-commit)
 
 ```shell
 To undo git add . use git reset (no dot)
