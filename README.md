@@ -40,3 +40,11 @@ for a single file
 ```shell
 git reset filename.txt
 ```
+
+### [When your commits is not visible](https://stackoverflow.com/questions/1115854/how-to-resolve-error-bad-index-fatal-index-file-corrupt-when-using-git)
+
+git read-tree
+
+
+
+git read-tree
