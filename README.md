@@ -48,3 +48,10 @@ git read-tree
 
 
 git read-tree
+
+## [set your repository to previous commit](https://stackoverflow.com/questions/4372435/how-can-i-rollback-a-github-repository-to-a-specific-commit)
+
+```shell
+git reset --hard <old-commit-id>
+git push origin HEAD --force
+```
