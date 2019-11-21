@@ -55,3 +55,35 @@ git read-tree
 git reset --hard <old-commit-id>
 git push origin HEAD --force
 ```
+
+## Add git large files from mac
+
+1. First you need to install Homebrew on Mac. Type the following command on the main terminal
+
+link: http://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
+
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+2. Now you need to install git lfs using homebrew
+
+link: https://stackoverflow.com/questions/48734119/git-lfs-is-not-a-git-command-unclear
+
+```shell
+$ brew update
+
+$ brew install git-lfs
+```
+
+3. Now on the git terminal of your R project type the following
+
+link: https://developer.lsst.io/v/DM-5063/tools/git_lfs.html
+
+```shell
+git lfs track
+git lfs track "*.rda"
+```
+
+After that commit and push the files.
+
