@@ -87,3 +87,18 @@ git lfs track "*.rda"
 
 After that commit and push the files.
 
+## Errors
+
+When you get the following error
+
+```shell
+To https://github.com/fforms/fforms.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/fforms/fforms.git'
+```
+use the command
+
+```shell
+git push origin master -f
+```
+
